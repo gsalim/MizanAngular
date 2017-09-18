@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+    <head>
+        <title>Angular Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div ng-controller="myCtrl">
+            <p>Hello Angular</p>
+            <p>Name : {{name}}</p>
+            <p>Age : {{age}}</p>
+            <p>Version: {{version}}</p>
+        </div>
+        
+        <div ng-controller="myCtrl">
+            <p>Hello Angular</p>
+            <p>Name : {{name}}</p>
+            <p>Age : {{age}} </p>
+        </div>
+        
+        
+        
+        <script src = "script/angular/angular.js"></script> 
+        <script src = "script/angular/app.js"></script>
+    </body>
+</html>
